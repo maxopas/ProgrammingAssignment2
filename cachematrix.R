@@ -2,6 +2,13 @@
 ## matrix so it can be effectively accessed many times without need of
 ## inversing it each time.
 
+## Example of usage:
+## > b <- makeCacheMatrix(matrix(c(4,3,3,2), 2, 2))
+## > cacheSolve(b)
+##      [,1] [,2]
+## [1,]   -2    3
+## [2,]    3   -4
+
 ## Creates matrix wrapper. Give a matrix as a parameter.
 ## You can access original matrix using obj$get()
 
